@@ -20,14 +20,33 @@ title: "Ticker: HAIRY"
 <!--</div>-->
 
 <div class="content">
-	<section>
+	<section id="ticker">
 		<div class="container flex">
 			<div class="text editable">
-				<h2>How can we <strong>double</strong> our sales revenue?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources. </p>
+				<h2>Already know of <strong>Cardano</strong> and just want to stake your ADA?</h2>
+				<p>Our ticker symbol is: <strong>HAIRY</strong></p>
+			</div>
+
+			<div class="image">
+				<a href="https://cardano.org" target="_blank">
+					<img src="{{ site.baseurl }}/images/cardano_hairy.png" alt="Screenshot"
+						 class="screenshot editable"/>
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="wallets">
+		<div class="container flex">
+			<div class="text editable">
+				<h2>How can I <strong>stake</strong> my ADA?</h2>
+				<p>We recommend the use of of either the <strong>DAEDALUS</strong> or <strong>YOROI</strong> wallet.</p>
 			</div>
 			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+				<a href="https://cardano.org/stake-pool-delegation/" target="_blank">
+					<img src="{{ site.baseurl }}/images/wallet.png" alt="Screenshot" class="screenshot editable"/>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -35,27 +54,41 @@ title: "Ticker: HAIRY"
 	<section>
 		<div class="container flex">
 			<div class="text editable">
-				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
+				<h2>Why <strong>stake</strong> with Hairy Staking?</h2>
+				<p>If you are looking for an Australian based Staking Pool (hosted out of Sydney) with a combined IT experience of over 40 years, you can be confident that our pool will be always be ready to mint.</p>
 			</div>
 			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+				<img src="{{ site.baseurl }}/images/cardano_hairy.png" alt="Screenshot" class="screenshot editable" />
 			</div>
 		</div>
 	</section>
 
-	<section>
+	<section id="faq">
 		<div class="container flex">
 			<div class="text editable">
-				<h2>How can I <strong>forecast</strong> the next 90 days?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
+				<h2>Do you have some <strong>questions</strong> about staking ADA?</h2>
+				<p>The Cardano site has a great <strong>FAQ</strong> that should answer all of your questions.</p>
 			</div>
 			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+				<a href="https://cardano.org/stake-pool-delegation/#faq" target="_blank">
+					<img src="{{ site.baseurl }}/images/faq.png" alt="Screenshot" class="screenshot editable"/>
+				</a>
 			</div>
 		</div>
 	</section>
 
+	<section id="about">
+		<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+		<ul class="staff">
+			{% for person in site.staff_members %}
+			<li>
+				<div class="square-image"><img src="{{ site.baseurl }}{{ person.image_path }}" alt="{{ person.name }}"/></div>
+				<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+				<div class="position">{{ person.position }}</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
 	<section class="testimonial">
 		<div class="container flex">
 			<div class="testimonial-block">
