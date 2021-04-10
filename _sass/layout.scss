@@ -18,13 +18,13 @@
 }
 
 header {
-	color: #fff;
+	color: rgba(255, 255, 255, 0.8);
 	padding: 20px 0;
 	background: $brand-color; /* Old browsers */
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
 
 	a {
-		color: #fff;
+		color: rgba(255, 255, 255, 0.8);
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -35,8 +35,9 @@ header {
 	}
 
 	.company-name {
-		font-size: 1.7em;
+		font-size: 1em;
 		line-height: 0;
+		padding-top: 10px;
 
 		a {
 			display: inline-block;

@@ -47,13 +47,13 @@ p, address { font-size: 1.38em; color: #666; margin-bottom: 20px; font-weight: 3
 
 .container.max-container { max-width: 100%; padding: 0; }
 
-header { color: #fff; padding: 20px 0; background: #4182e4; /* Old browsers */ background: linear-gradient(to bottom, #4182e4 0%, #4182e4 100%) no-repeat #4182e4; }
+header { color: rgba(255, 255, 255, 0.8); padding: 20px 0; background: #4182e4; /* Old browsers */ background: linear-gradient(to bottom, #4182e4 0%, #4182e4 100%) no-repeat #4182e4; }
 
-header a { color: #fff; text-decoration: none; z-index: 1; position: relative; }
+header a { color: rgba(255, 255, 255, 0.8); text-decoration: none; z-index: 1; position: relative; }
 
 header a:hover { text-decoration: none; }
 
-header .company-name { font-size: 1.7em; line-height: 0; }
+header .company-name { font-size: 1em; line-height: 0; padding-top: 10px; }
 
 header .company-name a { display: inline-block; }
 
