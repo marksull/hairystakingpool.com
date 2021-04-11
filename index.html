@@ -65,20 +65,6 @@ title: "Ticker: HAIRY"
 	</section>
 
 	<section id="faq">
-		<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-			<li>
-				<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-				<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-				<div class="position">{{ person.position }}</div>
-			</li>
-			{% endfor %}
-		</ul>
-	</section>
-	<section class="testimonial">
-
-	<section id="faq">
 		<div class="container flex">
 			<div class="text editable">
 				<h2>Do you have some <strong>questions</strong> about staking ADA?</h2>
@@ -103,8 +89,7 @@ title: "Ticker: HAIRY"
 				<li>
 					<div class="square-image"><img src="{{ site.baseurl }}{{ person.image_path }}"
 												   alt="{{ person.name }}"/></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name
-						}}</a></div>
+					<div class="name"><a target="_blank" href="https://twitter.com/">{{ person.name }}</a></div>
 					<div class="position">{{ person.position }}</div>
 				</li>
 				{% endfor %}

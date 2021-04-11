@@ -2,12 +2,12 @@
   link: "#ticker"
   new_window: false
   highlight: false
-- name: FAQ
-  link: "#faq"
-  new_window: false
-  highlight: false
 - name: Wallets
   link: "#wallets"
+  new_window: false
+  highlight: false
+- name: FAQ
+  link: "#faq"
   new_window: false
   highlight: false
 - name: About
