@@ -55,7 +55,7 @@ jekyll-archives:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate
+#  - jekyll-paginate
   #  - jekyll-archives
 #  - jekyll-feed
 
