@@ -74,11 +74,11 @@ jekyll-archives:
     - categories
 
 plugins:
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
   - jekyll-paginate
+  #  - jekyll-archives
+#  - jekyll-feed
 
 exclude:
   - Gemfile
@@ -91,16 +91,16 @@ exclude:
 # -----------
 # CloudCannon
 
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+social_icons: []
+#  - Facebook
+#  - Google Plus
+#  - Instagram
+#  - LinkedIn
+#  - Pinterest
+#  - Tumblr
+#  - Twitter
+#  - YouTube
+#  - RSS
 
 _comments:
   map: Update the map location and display settings.

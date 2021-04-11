@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://cardano.hairystakingpool.com/sitemap.xml
