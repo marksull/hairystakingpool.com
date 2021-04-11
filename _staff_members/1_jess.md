@@ -1,5 +1,5 @@
 ---
-name: Sam
-position: DevOps/Support
+name: Jess
+position: Ops/Support
 image_path: /images/jess.png
 ---
