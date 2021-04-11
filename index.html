@@ -20,6 +20,7 @@ title: "Ticker: HAIRY"
 <!--</div>-->
 
 <div class="content">
+
 	<section id="ticker">
 		<div class="container flex">
 			<div class="text editable">
@@ -55,7 +56,7 @@ title: "Ticker: HAIRY"
 		<div class="container flex">
 			<div class="text editable">
 				<h2>Why <strong>stake</strong> with Hairy Staking?</h2>
-				<p>If you are looking for an Australian based Staking Pool (hosted out of Sydney) with a combined IT experience of over 40 years, you can be confident that our pool will be always be ready to mint.</p>
+				<p>If you are looking for an Australian based Staking Pool (hosted out of Sydney) with a support team with a combined IT experience of 40+ years, you can be confident that our pool will be always be ready to mint.</p>
 			</div>
 			<div class="image">
 				<img src="{{ site.baseurl }}/images/cardano_hairy.png" alt="Screenshot" class="screenshot editable" />
@@ -78,26 +79,22 @@ title: "Ticker: HAIRY"
 	</section>
 
 	<section id="about">
-		<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-			<li>
-				<div class="square-image"><img src="{{ site.baseurl }}{{ person.image_path }}" alt="{{ person.name }}"/></div>
-				<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-				<div class="position">{{ person.position }}</div>
-			</li>
-			{% endfor %}
-		</ul>
-	</section>
-	<section class="testimonial">
-		<div class="container flex">
-			<div class="testimonial-block">
-				<div class="square-image"><img src="https://source.unsplash.com/6anudmpILw4/600x400" alt="Jim James" class="editable"></div>
-				<blockquote>
-					<p class="editable">Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.</p>
-					<p class="editable author">Jim James - CEO of Global Corp.</p>
-				</blockquote>
-			</div>
+
+		<div class="page container">
+			<h2>Our team</h2>
+			<p class="subtext">We've built an amazing, fantastic team of developers, marketers, designers and sales
+				people.</p>
+			<ul class="staff">
+				{% for person in site.staff_members %}
+				<li>
+					<div class="square-image"><img src="{{ site.baseurl }}{{ person.image_path }}"
+												   alt="{{ person.name }}"/></div>
+					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name
+						}}</a></div>
+					<div class="position">{{ person.position }}</div>
+				</li>
+				{% endfor %}
+			</ul>
 		</div>
 	</section>
 
