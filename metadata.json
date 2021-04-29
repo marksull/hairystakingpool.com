@@ -3,5 +3,6 @@
   "ticker": "HAIRY",
   "description": "HAIRY Staking Pool",
   "homepage": "https://cardano.hairystakingpool.com",
-  "extended": "https://cardano.hairystakingpool.com/metadata.json"
+  "extended": "https://cardano.hairystakingpool.com/metadata.json",
+  "verify": "09c2ea71807a26de218d0858a687c65c"
 }
