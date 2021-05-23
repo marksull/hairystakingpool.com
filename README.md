@@ -1,1 +1,1 @@
-jekyll serve -w
+View the hosted page @ https://cardano.hairystakingpool.com
